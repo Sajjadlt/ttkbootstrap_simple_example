@@ -73,6 +73,6 @@ class App(ttk.Frame):
 
 
 if "__main__" == __name__:
-    app = ttk.Window(themename="darkly")
+    app = ttk.Window(themename="darkly",title= "ttkbootstrap example")
     App(app)
     app.mainloop()
